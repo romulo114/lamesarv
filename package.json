@@ -1,0 +1,44 @@
+{
+  "name": "lp-next-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.0",
+    "@heroicons/react": "^1.0.3",
+    "@prismicio/client": "^5.1.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "babel-preset-es2015": "^6.24.1",
+    "cloudinary": "^1.27.0",
+    "cloudinary-core": "^2.11.4",
+    "cloudinary-react": "^1.7.0",
+    "cloudinary-video-player": "^1.5.5",
+    "essential-slices": "^1.0.4",
+    "heroicons-react": "^1.4.1",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "next": "^11.1.2",
+    "next-slicezone": "^0.1.2",
+    "next-transpile-modules": "^8.0.0",
+    "nsfw-filter-nsfwjs": "^3.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-gtm-module": "^2.0.11",
+    "slice-machine-ui": "0.1.0-beta.9",
+    "tailwindcss-scroll-snap": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^10.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.6",
+    "tailwind-scroll-behavior": "^1.0.0",
+    "tailwindcss": "^2.2.7"
+  }
+}
